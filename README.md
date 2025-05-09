@@ -30,6 +30,6 @@ A modern and customizable rich text editor built using **React**, **Draft.js**, 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/gaurang6719/react-rich-text-editor.git
+git clone https://github.com/gaurang6719/Text-Editor.git
 cd react-rich-text-editor
 npm install
