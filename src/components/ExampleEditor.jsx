@@ -1,6 +1,4 @@
-import React, { useState, useRef, useEffect, lazy, Suspense } from "react";
-const EmojiPicker = lazy(() => import("emoji-picker-react"));
-
+import React, { useState, useRef, useEffect } from "react";
 import {
   Editor,
   EditorState,
@@ -161,7 +159,6 @@ const ExampleEditor = () => {
 
   return (
     <div className="editor-container">
-
       <Toolbar
         editorState={editorState}
         currentStyle={currentStyle}
