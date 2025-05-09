@@ -4,11 +4,10 @@ import ExampleEditor from "./components/ExampleEditor";
 import Navbar from "./components/Navbar";
 
 const App = () => {
-  
   return (
     <>
-    <Navbar/>
-    <ExampleEditor/>
+      <Navbar />
+      <ExampleEditor />
     </>
   );
 };
