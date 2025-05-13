@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import { lazy, Suspense } from "react";
 import { EditorState } from "draft-js";
 import {
   AlignCenter,
@@ -33,7 +33,6 @@ const Toolbar = ({
 }) => {
   return (
     <div className="toolbar">
-      {/* Inline styles */}
       <button
         className={currentStyle.has("BOLD") ? "active" : ""}
         onMouseDown={(e) => {
